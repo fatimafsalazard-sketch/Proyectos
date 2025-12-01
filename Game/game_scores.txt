@@ -1,0 +1,32 @@
+Puntaje: 215 - Acción: Adoptó un árbol
+Puntaje: 0 - Acción: Adoptó un árbol
+Puntaje: 45 - Acción: Adoptó un árbol
+Puntaje: 0 - Acción: Donó dinero
+Puntaje: 180 - Acción: Donó dinero
+Puntaje: 1120 - Acción: Adoptó un árbol
+Puntaje: 120 - Acción: Adoptó un árbol
+Puntaje: 0 - Acción: Donó dinero
+Puntaje: 0 - Acción: Adoptó un árbol
+Jugador: FATIMA - Puntaje: 20 - Acción: Adoptó un árbol
+Jugador: FATIMA - Puntaje: 20 - Acción: Donó dinero
+Jugador: melisa - Puntaje: 75 - Acción: Adoptó un árbol
+Jugador: melisa - Puntaje: 75 - Acción: Donó dinero
+Jugador: ana - Puntaje: 50 - Acción: Adoptó un árbol
+Jugador: andrea - Puntaje: 55 - Acción: Abandonó sin adoptar
+Jugador: joana - Puntaje: 0 - Acción: Abandonó sin adoptar
+Jugador: juanito - Puntaje: 0 - Acción: Abandonó sin adoptar
+Jugador: gonzalo - Puntaje: 30 - Acción: Abandonó sin adoptar
+Jugador: IRVING - Puntaje: 0 - Acción: Abandonó sin adoptar
+Jugador: amelia - Puntaje: 0 - Acción: Adoptó un árbol
+Jugador: hermosillo - Puntaje: 310 - Acción: Abandonó sin adoptar
+Jugador: diana - Puntaje: 200 - Acción: Adoptó un árbol
+Jugador: juanito - Puntaje: 255 - Acción: Abandonó sin adoptar
+Jugador: Hermosillo - Puntaje: 325 - Acción: Abandonó sin adoptar
+Jugador: PRINCES - Puntaje: 55 - Acción: Abandonó sin adoptar
+Jugador: ALE - Puntaje: 270 - Acción: Adoptó un árbol
+Jugador: naomi - Puntaje: 245 - Acción: Abandonó sin adoptar
+Jugador: ayari - Puntaje: 160 - Acción: Adoptó un árbol
+Jugador: juanita - Puntaje: 375 - Acción: Adoptó un árbol
+Jugador: juan - Puntaje: 60 - Acción: Adoptó un árbol
+Jugador: yo - Puntaje: 0 - Acción: Adoptó un árbol
+Jugador: daniel - Puntaje: 405 - Acción: Adoptó un árbol

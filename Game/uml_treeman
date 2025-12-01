@@ -1,0 +1,47 @@
+// TreeMan UML
+digraph {
+	rankdir=TB
+	Game [label="Game
+- tree: Tree
+- achas: list<Acha>
+- points: list<Point>
+- score: int
++ run()
++ check_collisions()
++ update_screen()
++ handle_input()
++ end_game()"]
+	Tree [label="Tree
+- x: int
+- y: int
+- speed: int
+- lives: int
+- image
++ move(dx, dy)
++ draw()
++ collide(obj)"]
+	Acha [label="Acha
+- x: int
+- y: int
+- speed: int
+- image
++ move(target_x, target_y)
++ draw()"]
+	Point [label="Point
+- x: int
+- y: int
+- type: str
+- image
++ draw()"]
+	ScoreManager [label="ScoreManager
++ save_score(score, action)"]
+	UIManager [label="UIManager
++ draw_ui(tree, score)
++ draw_start_menu()
++ draw_game_over(score)"]
+	Game -> Tree [label=uses]
+	Game -> Acha [label=uses]
+	Game -> Point [label=uses]
+	Game -> ScoreManager [label=uses]
+	Game -> UIManager [label=uses]
+}
