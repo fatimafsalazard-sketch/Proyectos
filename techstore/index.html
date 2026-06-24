@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TECHSTORE — iPhones y Accesorios Premium</title>
+<meta name="description" content="Tienda especializada en iPhones y accesorios originales. Envío express, garantía extendida y los modelos más recientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>TECHSTORE</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#modelos">Modelos</a></li>
+        <li><a href="#accesorios">Accesorios</a></li>
+        <li><a href="#ventajas">Garantía</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="Carrito de compras">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3h2l2.4 13.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L22 7H6"/><circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none"/></svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Modelos Nuevos disponible</span>
+        <h1>El siguiente nivel<br><em>cabe en tu mano.</em></h1>
+        <p>Los modelos más recientes, accesorios que los acompañan, con garantía y envío.</p>
+        <div class="hero-ctas">
+          <a href="#modelos" class="btn btn-primary">Ver modelos</a>
+          <a href="#accesorios" class="btn btn-ghost">Explorar accesorios</a>
+        </div>
+        <div class="hero-trust">
+          <span><span class="dot"></span>Garantía hasta por 12 meses</span>
+          <span><span class="dot"></span>Envío en 24h</span>
+          <span><span class="dot"></span>Pago seguro</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELOS -->
+  <section class="section" id="modelos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Catálogo</span>
+        <h2>Elige el modelo que va contigo</h2>
+        <p>Disponibles en distintos colores y capacidades.</p>
+      </div>
+
+      <div class="models-grid">
+        <div class="model-card reveal" style="--mphone-a:#e7e3da;--mphone-b:#9a9488;">
+          <span class="model-tag">Nuevo</span>
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone 15 Pro Max</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A17 Pro</b></span>
+            <span>Pantalla: <b>6.7" Super Retina XDR</b></span>
+            <span>Cámara: <b>48MP triple</b></span>
+            <span>Batería: <b>hasta 29h video</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#4a4d52;"></span>
+            <span class="swatch" style="background:#e7e3da;"></span>
+            <span class="swatch" style="background:#3c5c78;"></span>
+            <span class="swatch" style="background:#7c6a52;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$27,999 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+        <div class="model-card reveal" style="--mphone-a:#5b7da3;--mphone-b:#2e3d52;">
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone 11</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A17 Pro</b></span>
+            <span>Pantalla: <b>6.1" Super Retina XDR</b></span>
+            <span>Cámara: <b>48MP triple</b></span>
+            <span>Batería: <b>hasta 23h video</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#4a4d52;"></span>
+            <span class="swatch" style="background:#e7e3da;"></span>
+            <span class="swatch" style="background:#3c5c78;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$23,999 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+        <div class="model-card reveal" style="--mphone-a:#f2c79a;--mphone-b:#b88a4f;">
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone 13</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A16 Bionic</b></span>
+            <span>Pantalla: <b>6.1" Super Retina XDR</b></span>
+            <span>Cámara: <b>48MP dual</b></span>
+            <span>Batería: <b>hasta 20h video</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#f2c79a;"></span>
+            <span class="swatch" style="background:#cfe3ea;"></span>
+            <span class="swatch" style="background:#e7e3da;"></span>
+            <span class="swatch" style="background:#2f3136;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$17,999 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+        <div class="model-card reveal" style="--mphone-a:#9aa0a8;--mphone-b:#46494e;">
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone 14 Pro</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A15 Bionic</b></span>
+            <span>Pantalla: <b>6.1" Super Retina XDR</b></span>
+            <span>Cámara: <b>12MP dual</b></span>
+            <span>Batería: <b>hasta 20h video</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#2f3136;"></span>
+            <span class="swatch" style="background:#e7e3da;"></span>
+            <span class="swatch" style="background:#c34e5f;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$14,499 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+        <div class="model-card reveal" style="--mphone-a:#d8455c;--mphone-b:#7a1f2c;">
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone SE</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A15 Bionic</b></span>
+            <span>Pantalla: <b>4.7" Retina HD</b></span>
+            <span>Cámara: <b>12MP simple</b></span>
+            <span>Batería: <b>hasta 15h video</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#2f3136;"></span>
+            <span class="swatch" style="background:#e7e3da;"></span>
+            <span class="swatch" style="background:#d8455c;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$9,999 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+        <div class="model-card reveal" style="--mphone-a:#bfae8e;--mphone-b:#695a3e;">
+          <span class="model-tag">Reacondicionado</span>
+          <div class="model-visual"><div class="mini-phone"></div></div>
+          <h3>iPhone 16 Pro</h3>
+          <div class="model-specs">
+            <span>Chip: <b>A15 Bionic</b></span>
+            <span>Pantalla: <b>6.1" Super Retina XDR</b></span>
+            <span>Cámara: <b>12MP dual</b></span>
+            <span>Estado: <b>Certificado, como nuevo</b></span>
+          </div>
+          <div class="swatches">
+            <span class="swatch" style="background:#2f3136;"></span>
+            <span class="swatch" style="background:#bfae8e;"></span>
+            <span class="swatch" style="background:#3c5c78;"></span>
+          </div>
+          <div class="model-price-row">
+            <div class="model-price">Desde<b>$11,499 MXN</b></div>
+          </div>
+          <a href="producto.html" class="btn btn-ghost btn-block btn-sm">Ver detalles</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCESORIOS -->
+  <section class="section" id="accesorios">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Complementos</span>
+        <h2>Accesorios que valen la pena</h2>
+        <p>Fundas, cargadores y audífonos compatibles, seleccionados por durabilidad y compatibilidad real con cada modelo.</p>
+      </div>
+
+      <div class="accessory-grid">
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="2" width="12" height="20" rx="3"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
+          </div>
+          <h4>Funda MagSafe Silicona</h4>
+          <p>Protección con acabado suave y alineación magnética perfecta para carga inalámbrica.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$699 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+          </div>
+          <h4>Cargador MagSafe 15W</h4>
+          <p>Carga rápida inalámbrica con anclaje magnético, sin necesidad de alinear el cable.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$899 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 14a9 9 0 0 1 18 0"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg>
+          </div>
+          <h4>Audífonos Pro inalámbricos</h4>
+          <p>Cancelación activa de ruido y modo transparencia, con estuche de carga incluido.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$3,999 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>
+          </div>
+          <h4>Protector de pantalla</h4>
+          <p>Vidrio templado de alta transparencia con instalación guiada incluida, sin burbujas.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$349 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h11l3 3v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M16 13h4"/></svg>
+          </div>
+          <h4>Cable USB-C trenzado 1.5m</h4>
+          <p>Resistencia reforzada y carga rápida de hasta 60W, compatible con todos los modelos USB-C.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$449 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="7" width="16" height="10" rx="2"/><line x1="22" y1="10" x2="22" y2="14"/></svg>
+          </div>
+          <h4>PowerBank MagSafe 5000mAh</h4>
+          <p>Batería portátil con anclaje magnético, ideal para extender el día sin cables sueltos.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$1,199 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VENTAJAS -->
+  <section class="section" id="ventajas">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Por qué comprar aquí</span>
+        <h2>Compra tranquila, de principio a fin</h2>
+      </div>
+
+      <div class="perks-grid">
+        <div class="perk reveal">
+          <div class="perk-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="1" y="6" width="15" height="11" rx="2"/><path d="M16 10h4l3 3v4h-7"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg>
+          </div>
+          <h4>Envío</h4>
+          <p>Entrega en 24-48h, con seguimiento en tiempo real.</p>
+        </div>
+        <div class="perk reveal">
+          <div class="perk-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5z"/></svg>
+          </div>
+          <h4>Garantía extendida</h4>
+          <p>Hasta 12 meses de cobertura ante defectos de fábrica, sin letras chiquitas.</p>
+        </div>
+        <div class="perk reveal">
+          <div class="perk-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </div>
+          <h4>Pago seguro</h4>
+          <p>Tarjeta, transferencia o pago a meses sin intereses.</p>
+        </div>
+        <div class="perk reveal">
+          <div class="perk-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h4>Soporte real</h4>
+          <p>Contacto directo antes y después de tu compra.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section testimonios">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Clientes</span>
+        <h2>Esperiencias de compra</h2>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Pedí mi iPhone un martes y el jueves ya lo tenía en la puerta. La batería estaba al 100% de salud, tal como decía el anuncio."</p>
+          <div class="testi-who">
+            <div class="testi-avatar"></div>
+            <div><div class="testi-name">Daniela Reyes</div><div class="testi-loc">Jamay, Jal.</div></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Me asesoraron por chat para elegir entre el Pro y el normal según mi uso real, no me vendieron el más caro nada más porque sí."</p>
+          <div class="testi-who">
+            <div class="testi-avatar"></div>
+            <div><div class="testi-name">Luis Fernando Torres</div><div class="testi-loc">Zamora, Michoacán.</div></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"El cargador MagSafe que compré con el equipo llegó perfecto y la garantía cubrió un cambio sin ningún problema."</p>
+          <div class="testi-who">
+            <div class="testi-avatar"></div>
+            <div><div class="testi-name">Camila Ortiz</div><div class="testi-loc">Ocotlán, Jal.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="wrap">
+      <div class="newsletter-box reveal">
+        <h2>Quieres atencion personalizada?</h2>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="tel" placeholder="teléfono" required aria-label="Número de teléfono">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div class="form-msg" id="formMsg"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h5>Soporte</h5>
+        <ul>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Rastrear pedido</a></li>
+          <li><a href="#">Cambios y devoluciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Tienda</h5>
+        <ul>
+          <li><a href="#modelos">Modelos</a></li>
+          <li><a href="#accesorios">Accesorios</a></li>
+          <li><a href="#ventajas">Garantía</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Visitanos</h5>
+        <ul>
+          <li><a href="">Melchor Ocampo 267 Ocotlán, Jal.</a></li>
+          <li><a href="">Hidaldo 343 Ocotlán, Jal.</a></li>
+          <li><a href="">Lazaro Cardenas 728 La Barca, Jal.</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© TECHSTORE. Todos los derechos reservados. No afiliado a Apple Inc.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8h-2a2 2 0 0 0-2 2v3H9v3h3v6h3v-6h2.5l.5-3H15v-2.5a.5.5 0 0 1 .5-.5H16z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 8.4 19.6z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

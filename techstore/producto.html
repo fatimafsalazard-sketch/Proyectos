@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 15 Pro Max — TECHSTORE</title>
+<meta name="description" content="iPhone 15 Pro Max: chip A17 Pro, pantalla de 6.7 pulgadas y cámara de 48MP. Elige color y almacenamiento, con envío express y garantía de 12 meses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>TECHSTORE</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#modelos">Modelos</a></li>
+        <li><a href="index.html#accesorios">Accesorios</a></li>
+        <li><a href="index.html#ventajas">Garantía</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="Carrito de compras">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3h2l2.4 13.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L22 7H6"/><circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none"/></svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- BREADCRUMB + PRODUCTO -->
+  <section class="product-top">
+    <div class="wrap">
+      <div class="breadcrumb">
+        <a href="index.html">Inicio</a>
+        <span class="sep">/</span>
+        <a href="index.html#modelos">Modelos</a>
+        <span class="sep">/</span>
+        <span class="current">iPhone 15 Pro Max</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="product-layout">
+
+        <!-- Galería con efecto de volteo -->
+        <div>
+          <div class="gallery-flip">
+            <div class="gallery-flip-inner" id="galleryInner" style="--device-color:#8a8478;">
+              <div class="gallery-face front">
+                <div class="phone phone-lg">
+                  <div class="phone-screen">
+                    <div class="dynamic-island"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery-face back">
+                <div class="phone-back-shell">
+                  <div class="phone-back-face">
+                    <div class="camera-bump-lg">
+                      <div class="lens-lg"></div><div class="lens-lg"></div>
+                      <div class="lens-lg"></div><div class="lens-lg"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Información del producto -->
+        <div class="product-info">
+          <span class="eyebrow">Disponible para entrega en 24h</span>
+          <h1>iPhone 15 Pro Max</h1>
+          <div class="rating-row">
+            <span class="stars">★★★★★</span>
+            <span>4.9 — 1,284 reseñas verificadas</span>
+          </div>
+
+          <div class="price-block">
+            <div class="price-now" id="priceNow">$27,999 MXN</div>
+          </div>
+
+          <div class="option-group">
+            <div class="option-label">Color: <b id="colorLabel">Titanio Natural</b></div>
+            <div class="color-options">
+              <button class="color-dot active" style="background:#8a8478;" data-color="#8a8478" data-name="Titanio Natural" aria-label="Titanio Natural"></button>
+              <button class="color-dot" style="background:#4f6a83;" data-color="#4f6a83" data-name="Titanio Azul" aria-label="Titanio Azul"></button>
+              <button class="color-dot" style="background:#d8d4c9;" data-color="#d8d4c9" data-name="Titanio Blanco" aria-label="Titanio Blanco"></button>
+              <button class="color-dot" style="background:#3b3c3f;" data-color="#3b3c3f" data-name="Titanio Negro" aria-label="Titanio Negro"></button>
+            </div>
+          </div>
+
+          <div class="option-group">
+            <div class="option-label">Almacenamiento</div>
+            <div class="storage-options">
+              <button class="storage-pill active" data-price="27999">256GB</button>
+              <button class="storage-pill" data-price="30999">512GB</button>
+              <button class="storage-pill" data-price="34999">1TB</button>
+            </div>
+          </div>
+
+          <div class="qty-row">
+            <span class="qty-label">Cantidad</span>
+            <div class="qty-stepper">
+              <button id="qtyDec" aria-label="Reducir cantidad">−</button>
+              <span id="qtyVal">1</span>
+              <button id="qtyInc" aria-label="Aumentar cantidad">+</button>
+            </div>
+          </div>
+
+          <div class="product-msg" id="productMsg"></div>
+
+          <div class="product-ctas">
+            <button class="btn btn-primary" id="addToCartBtn">Agregar al carrito</button>
+            <button class="btn btn-ghost" id="buyNowBtn">Comprar ahora</button>
+          </div>
+
+          <div class="mini-trust">
+            <span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="1" y="6" width="15" height="11" rx="2"/><path d="M16 10h4l3 3v4h-7"/><circle cx="6" cy="19" r="1.6"/><circle cx="18" cy="19" r="1.6"/></svg>
+              Envío express en 24-48h
+            </span>
+            <span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5z"/></svg>
+              Garantía de 12 meses
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPECIFICACIONES + CONTENIDO DE LA CAJA -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Detalles técnicos</span>
+        <h2>Especificaciones completas</h2>
+      </div>
+
+      <div class="specs-grid">
+        <div class="spec-list reveal">
+          <div class="spec-row"><span class="spec-key">Pantalla</span><span class="spec-val">6.7" Super Retina XDR, 120Hz</span></div>
+          <div class="spec-row"><span class="spec-key">Chip</span><span class="spec-val">A17 Pro, 6 núcleos</span></div>
+          <div class="spec-row"><span class="spec-key">Cámara principal</span><span class="spec-val">48MP triple (gran angular, ultra gran angular, telefoto)</span></div>
+          <div class="spec-row"><span class="spec-key">Cámara frontal</span><span class="spec-val">12MP TrueDepth</span></div>
+          <div class="spec-row"><span class="spec-key">Batería</span><span class="spec-val">Hasta 29h de reproducción de video</span></div>
+          <div class="spec-row"><span class="spec-key">Resistencia</span><span class="spec-val">IP68 (hasta 6m, 30 min)</span></div>
+          <div class="spec-row"><span class="spec-key">Material</span><span class="spec-val">Titanio grado 5 + vidrio texturizado</span></div>
+          <div class="spec-row"><span class="spec-key">Conectividad</span><span class="spec-val">5G, Wi-Fi 6E, Bluetooth 5.3, USB-C</span></div>
+          <div class="spec-row"><span class="spec-key">Sistema</span><span class="spec-val">iOS, actualizaciones por 5+ años</span></div>
+          <div class="spec-row"><span class="spec-key">Peso</span><span class="spec-val">221 g</span></div>
+        </div>
+
+        <div class="box-card reveal">
+          <h4>Qué incluye la caja</h4>
+          <ul class="box-list">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>iPhone 15 Pro Max</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Cable USB-C a USB-C</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Documentación y tarjeta de garantía</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>Herramienta de extracción de SIM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCESORIOS RELACIONADOS -->
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Complementa tu compra</span>
+        <h2>También te puede interesar</h2>
+      </div>
+
+      <div class="accessory-grid">
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="2" width="12" height="20" rx="3"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
+          </div>
+          <h4>Funda MagSafe Silicona</h4>
+          <p>Protección con acabado suave y alineación magnética perfecta para carga inalámbrica.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$699 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>
+          </div>
+          <h4>Cargador MagSafe 15W</h4>
+          <p>Carga rápida inalámbrica con anclaje magnético, sin necesidad de alinear el cable.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$899 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+
+        <div class="accessory-card reveal">
+          <div class="acc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/></svg>
+          </div>
+          <h4>Protector de pantalla</h4>
+          <p>Vidrio templado de alta transparencia con instalación guiada incluida, sin burbujas.</p>
+          <div class="acc-bottom">
+            <span class="acc-price">$349 MXN</span>
+            <button class="btn btn-ghost btn-sm add-btn">Añadir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h5>Soporte</h5>
+        <ul>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Rastrear pedido</a></li>
+          <li><a href="#">Cambios y devoluciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Tienda</h5>
+        <ul>
+          <li><a href="#modelos">Modelos</a></li>
+          <li><a href="#accesorios">Accesorios</a></li>
+          <li><a href="#ventajas">Garantía</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Visitanos</h5>
+        <ul>
+          <li><a href="">Melchor Ocampo 267 Ocotlán, Jal.</a></li>
+          <li><a href="">Hidaldo 343 Ocotlán, Jal.</a></li>
+          <li><a href="">Lazaro Cardenas 728 La Barca, Jal.</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© TECHSTORE. Todos los derechos reservados. No afiliado a Apple Inc.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8h-2a2 2 0 0 0-2 2v3H9v3h3v6h3v-6h2.5l.5-3H15v-2.5a.5.5 0 0 1 .5-.5H16z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 8.4 19.6z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
